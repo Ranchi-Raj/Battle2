@@ -240,12 +240,16 @@ footer{
 }
 
 .celeb{
-    color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: #1d3681;
+    padding: 5px;
 }
 
 .celeb:hover{
-    color: blue;
-    animation: colorchange 1s infinite alternate;    
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    /* animation: colorchange 1s infinite alternate;     */
 }
 
 @keyframes colorchange {
@@ -312,6 +316,11 @@ footer{
         width: 200px;
         height: 200px;
     }
+
+    .celeb{
+        font-size: 2rem;
+    }
+
 }
 @media screen and (max-width: 750px) {
     .message{
@@ -368,9 +377,9 @@ footer{
         width: 200px;
         height: 200px;
     }
-    .fifty{
+    /* .fifty{
         background-size: contain;
-    }
+    } */
 
     
 }
